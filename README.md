@@ -10,7 +10,7 @@ Install `top_menu_change` plugin for `Redmine`.
 
 ```shell
   cd $REDMINE_ROOT
-  git git@github.com:Bazulenkov/redmine_top_menu_change.git plugins/top_menu_change
+  git https://github.com/Bazulenkov/redmine_top_menu_change.git plugins/top_menu_change
   bundle config set --local without 'development test'
   bundle install
   bundle exec rake redmine:plugins:migrate RAILS_ENV=production

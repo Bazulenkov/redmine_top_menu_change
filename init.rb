@@ -1,6 +1,6 @@
 require 'redmine'
 
-Redmine::Plugin.register :top_menu_add_link do
+Redmine::Plugin.register :top_menu_change do
   name 'Top Menu Add Link plugin'
   author 'Anton Bazulenkov'
   description 'This is a plugin for Redmine. Adds some items on top menu.'
